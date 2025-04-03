@@ -15,6 +15,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: #EAEFF2; ;
 }
 
 .nav-links {
@@ -92,8 +96,6 @@ section {
     border-radius: 20px;
     text-decoration: none;
 }
-
-
 
 footer {
 	text-align: center;
